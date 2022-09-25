@@ -3,16 +3,16 @@ package assign2;
 public class ques4 {
 	public static void main(String args[])
 	{
-		int old_population=80000,new_population=80000,year_count=0;
-		System.out.println("Old population: "+old_population);
-		while(new_population<=150000)
+		int new_popln = 80000;
+		int old_popln = 80000;
+		int year_cnt = 0;
+		System.out.println("Old population: " + old_popln);
+		while(new_population <= 150000)
 		{
-			new_population+=(new_population*5)/100;
-			year_count++;
+			new_population += (new_popln*5)/100;
+			year_cnt++;
 		}
-		System.out.println("Year count when population exceeds 15000: "+year_count);
-		System.out.println("New population:"+new_population);
-		
-		
+		System.out.println("Year when the population exceeds 150000: " + year_cnt);
+		System.out.println("Population at that time: " + new_popln);
 	}
 }
