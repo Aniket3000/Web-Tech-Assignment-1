@@ -3,8 +3,8 @@ package assign2;
 public class ques3 {
 	public static void main(String args[])
 	{
-		int val=5;
-		switch(val)
+		int num = 7;
+		switch(num)
 		{
 			case 1:
 				System.out.println("Month: January");
@@ -12,7 +12,7 @@ public class ques3 {
 				break;
 			case 2:
 				System.out.println("Month: February");
-				System.out.println("Number of days: 28/29");
+				System.out.println("Number of days: 28");
 				break;
 			case 3:
 				System.out.println("Month: March");
@@ -55,6 +55,5 @@ public class ques3 {
 				System.out.println("Number of days: 31");
 				break;
 	}
-				
 	}
 }
